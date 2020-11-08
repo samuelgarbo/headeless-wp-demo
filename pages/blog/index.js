@@ -24,7 +24,7 @@ const Blog = ({ allPosts: { edges } }) => (
             <div className={blogStyles.listitem__thumbnail}>
               <figure>
                 <img
-                  src={node.extraPostInfo.thumbnailImage?.mediaItemUrl}
+                  src={node.extraPostInfo.thumbImage?.mediaItemUrl}
                   alt={node.title}
                 />
               </figure>
